@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+
+section {
+    width: min(45%, 1000px);
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    padding: 30px 20px 10px 20px;
+}
+
+.top-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+} 
+
+.notifications {
+    display: flex;
+}
+
+.text {
+    font-weight: 800;
+    margin-right: 8px; 
+    font-size: 19px;
+}
+
+.noti-num {
+    background-color: rgb(0, 0, 117);
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.read p {
+    color: grey;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.read p:hover{
+    color: navy;
+}
+
+.group {
+    background-color: rgba(234, 238, 241, 0.774);
+    display: flex;
+    padding: 9px 15px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.content {
+    font-size: 13px;
+}
+.content p {
+    color: grey;
+    font-weight: 500;
+}
+.content i {
+    color: rgb(252, 77, 77);
+    font-size: 8px;
+    /* font-size: 8px; */
+    margin-left: 5px;
+}
+.word {
+    margin-bottom: 3px;
+}
+
+.profile {
+    margin-right: 15px;
+}
+.image{
+    width: 35px;
+    cursor: pointer;
+}
+
+.name {
+    font-weight: 800;
+    /* font-size: 15px; */
+    color: black;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.name:hover {
+    color: navy;
+}
+
+.comment {
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+    font-weight: 700;
+}
+.comment:hover {
+    color: navy;
+}
+
+.chess {
+    color: navy;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+.rizky, .smith, .peterson, .anna {
+    display: flex;
+    padding: 9px 15px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.more {
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.more:hover {
+    background-color: rgba(234, 238, 241, 0.774);
+}
+
+.smith-content {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+.smith-photo img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: transparent;
+}
+.none {
+    opacity: 0;
+}
+
+@media (max-width: 600px){
+    section {
+        width: 100%;
+    }
+    .smith-words {
+        flex-basis: 80%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 850px) {
+    section {
+        width: 80%;
+    }
+}
+
+
